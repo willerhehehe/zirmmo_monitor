@@ -12,7 +12,7 @@ import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb
 Base = declarative_base()
-engine = create_engine('mysql://root:123456@localhost/ziroom', echo=True)
+engine = create_engine('mysql://root:MyNewPass4!@localhost/ziroom', echo=True)
 Session = sessionmaker(bind=engine)
 
 
