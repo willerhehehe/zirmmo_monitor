@@ -7,7 +7,7 @@ pymysql.install_as_MySQLdb()
 import MySQLdb
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqldb://root:123456@localhost/ziroom'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqldb://root:MyNewPass4!@localhost/ziroom'
 db = SQLAlchemy(app)
 
 
